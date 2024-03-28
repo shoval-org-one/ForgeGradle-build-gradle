@@ -1,0 +1,68 @@
+repo_name: shoval-org-one/ForgeGradle-build-gradle
+report_id: 367a55be5b0addfb6bd2bc9f8b24923e
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T13:04:03+00:00'
+requested_by: SizableShrimp
+provider: github
+branch: FG_5.0
+detected_tools_count: 5
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/shoval-org-one/ForgeGradle-build-gradle
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/shoval-org-one/ForgeGradle-build-gradle/blob/FG_5.0/.teamcity/pom.xml
+  detection_source: ".teamcity/pom.xml"
+  last_updated_by: cpw
+  last_updated_on: 2021-12-29 18:55:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shoval-org-one/ForgeGradle-build-gradle
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shoval-org-one/ForgeGradle-build-gradle/blob/FG_5.0/.github/workflows/support.yml
+  detection_source: ".github/workflows/support.yml"
+  last_updated_by: SizableShrimp
+  last_updated_on: 2022-06-10 10:09:36.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/shoval-org-one/ForgeGradle-build-gradle/blob/FG_5.0/build.gradle
+  detection_source: build.gradle
+  last_updated_by: sciwhiz12
+  last_updated_on: 2022-06-01 20:12:00.000000000 Z
